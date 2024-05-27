@@ -16,7 +16,7 @@ services:
               device_ids: ['0'] # change if needed
               capabilities: [gpu]
     volumes:
-      - ./data:/workspace/
+      - ./workspace:/workspace/
       - ./.cache/:/home/user/.cache/
     ports:
       - "7007:7007"
